@@ -10,7 +10,7 @@ public class RubyController : MonoBehaviour
     public float  timeInvincible = 2.0f;
 
  public int health { get{ return currentHealth; }} // HealthCollectible.cs
-    int currentHealth ;
+    int currentHealth;
 
     bool isInvincible;//isInvincible states the damage zone 
     float invincibleTimer;
@@ -57,7 +57,7 @@ public class RubyController : MonoBehaviour
     {
         if (amount < 0)
         {   
-        if(isInvincible)    
+        if (isInvincible)    
            return;    
     
         isInvincible =true;
