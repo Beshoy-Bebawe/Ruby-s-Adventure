@@ -48,7 +48,7 @@ public class EnemyController : MonoBehaviour
         }
         rigidbody2D.MovePosition(position);
     }
-    void OnColluisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         RubyController player = other.gameObject.GetComponent<RubyController>();
         if (player != null)
@@ -56,6 +56,15 @@ public class EnemyController : MonoBehaviour
             player.ChangeHealth(-1);
         }
 
+
+    } 
+    Animator animator;
+    void Start()
+    {
+        rigidbody2D = GetComponent <Rigidbody2D>();
+
+    timer = changeTime;
+    animator = GetComponent
 
     }
 
