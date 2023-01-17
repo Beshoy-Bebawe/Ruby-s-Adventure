@@ -22,47 +22,47 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58668
+62953
 Successfully changed project path to: /Users/game1/Ruby's Adventure
 /Users/game1/Ruby's Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game1/Ruby's Adventure/Assets
 GfxDevice: creating device client; threaded=0
-2023-01-12 09:05:17.458 Unity[39152:2571334] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2023-01-12 09:05:17.458 Unity[39152:2571334] Metal devices available: 1
-2023-01-12 09:05:17.458 Unity[39152:2571334] 0: AMD Radeon Pro 5500 XT (high power)
-2023-01-12 09:05:17.458 Unity[39152:2571334] Using device AMD Radeon Pro 5500 XT (high power)
+2023-01-13 13:17:37.916 Unity[46182:2999042] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2023-01-13 13:17:37.916 Unity[46182:2999042] Metal devices available: 1
+2023-01-13 13:17:37.916 Unity[46182:2999042] 0: AMD Radeon Pro 5500 XT (high power)
+2023-01-13 13:17:37.916 Unity[46182:2999042] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56182
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000438 seconds.
+Registered in 0.000432 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 24.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.514 seconds
+- Completed reload, in  0.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (514ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (411ms)
-			LoadAssemblies (38ms)
+			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (153ms)
@@ -79,43 +79,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003396 seconds.
+Registered in 0.001546 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
+- Completed reload, in  0.914 seconds
 Domain Reload Profiling:
-	ReloadAssembly (938ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (914ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (178ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (175ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001741 seconds.
+Validating Project structure ... 0.001875 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.001752 seconds.
+Upgrading shader files ...0.001824 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1593 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 181.5 MB.
-System memory in use after: 180.7 MB.
+System memory in use after: 180.6 MB.
 
 Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 2068.
-Total: 2.498945 ms (FindLiveObjects: 0.104193 ms CreateObjectMapping: 0.042268 ms MarkObjects: 1.984926 ms  DeleteObjects: 0.366830 ms)
+Total: 2.573687 ms (FindLiveObjects: 0.111402 ms CreateObjectMapping: 0.046020 ms MarkObjects: 2.040145 ms  DeleteObjects: 0.375550 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,7 +152,28 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Art/Animations/Robot.controller
   artifactKey: Guid(e41065c24512248aa8e63d6a14ab8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animations/Robot.controller using Guid(e41065c24512248aa8e63d6a14ab8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f89a4485df288ba43b530db49e705a') in 0.868613 seconds 
-  Import took 0.874489 seconds .
+Start importing Assets/Art/Animations/Robot.controller using Guid(e41065c24512248aa8e63d6a14ab8d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4596576e66dbabdd4c3e603dc63e64b') in 0.828017 seconds 
+  Import took 0.832087 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.1 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 2.344808 ms (FindLiveObjects: 0.104244 ms CreateObjectMapping: 0.040518 ms MarkObjects: 2.191260 ms  DeleteObjects: 0.008362 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
