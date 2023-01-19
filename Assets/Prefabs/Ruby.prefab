@@ -101,6 +101,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 1438599195625360327, guid: fee6df941716447a8985c49da2e8df19, type: 3}
 --- !u!50 &327972369515997311
 Rigidbody2D:
   serializedVersion: 4
@@ -158,7 +159,7 @@ Animator:
   m_GameObject: {fileID: 327972369515997307}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
