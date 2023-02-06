@@ -38,10 +38,11 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/DamageZone.cs" />
      <Compile Include="Assets/Scripts/RubyController.cs" />
+     <Compile Include="Assets/Scripts/Projectile.cs" />
      <Compile Include="Assets/Scripts/EnemyController.cs" />
      <Compile Include="Assets/Scripts/HealthCollectible.cs" />
      <Compile Include="Assets/Art/Sprites/VFX/Materials/NewBehaviourScript.cs" />
-     <Compile Include="Assets/Scripts/Projectile.cs" />
+     <Compile Include="Assets/Scripts/UIHealthBar.cs" />
      <None Include="Assets/2DBeginner_Third-PartyNotice.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -613,8 +614,14 @@
     <Reference Include="mscorlib">
         <HintPath>/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/Users/game1/Ruby&apos;s Adventure/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/game1/Ruby&apos;s Adventure/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/Users/game1/Ruby&apos;s Adventure/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
         <HintPath>/Users/game1/Ruby&apos;s Adventure/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>

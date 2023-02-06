@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class RubyController : MonoBehaviour
 {
     public float speed = 3.0f;// Ruby's Movement
-    public int maxHealth = 5;//Health Part 3 
+    public int maxHealth = 5;//Health Part 3
 
     public float  timeInvincible = 2.0f;
 
@@ -89,6 +90,7 @@ public class RubyController : MonoBehaviour
         }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
     Debug.Log(currentHealth + "/" + maxHealth);
+    UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
 
 
 
