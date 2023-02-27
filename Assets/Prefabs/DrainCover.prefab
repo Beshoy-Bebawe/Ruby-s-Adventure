@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624952973687954818}
   - component: {fileID: 1853492180786383634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DrainCover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
