@@ -23,8 +23,10 @@ public class RubyController : MonoBehaviour
     Vector2 lookDirection = new Vector2(1,0);
 
     public GameObject projectilePrefab;
+    public AudioClip throwSound;
+    public AudioClip hitSound;
 
-
+    AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -34,10 +36,15 @@ public class RubyController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();// HealthCollectibe Part 2
 
         currentHealth = maxHealth;
+        audioSource= GetComponent<AudioSource>();
+        
         
     }
 
-
+        public void PlaySound(AudioClip clip)
+        {
+            audioSource.PlayOneShot(clip);
+        }
     // Update is called once per frame
     void Update()// MOVEMENT FOR RUBY aka Fixed Update and Update
     {
@@ -81,12 +88,6 @@ public class RubyController : MonoBehaviour
             }
         }          
 
-
-
-
-
-
-
     }
 
     void FixedUpdate()
@@ -103,11 +104,14 @@ public class RubyController : MonoBehaviour
     {
         if (amount < 0)
         {   
+            animator.SetTrigger("Hit");
         if (isInvincible)    
            return;    
     
         isInvincible =true;
         invincibleTimer = timeInvincible;
+
+        PlaySound(hitSound);
         }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
     
@@ -121,11 +125,11 @@ public class RubyController : MonoBehaviour
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f , Quaternion.identity);
 
         Projectile projectile = projectileObject.GetComponent<Projectile>();
-        projectile.Launch(lookDirection, 300);
+        projectile.Launch(lookDirection, 400);
 
         animator.SetTrigger("Launch");
 
-
+        PlaySound(throwSound);
 
 
     }
