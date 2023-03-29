@@ -28,6 +28,8 @@ public class RubyController : MonoBehaviour
 
     AudioSource audioSource;
 
+     public Transform respawnPosition;
+
 
     // Start is called before the first frame update
     void Start()// Ruby's Health Part 1
@@ -117,8 +119,10 @@ public class RubyController : MonoBehaviour
     
     UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
 
-
-
+    if(currentHealth == 0)
+    {
+        Respawn();
+    }
     }
     void Launch()
     {
@@ -133,6 +137,12 @@ public class RubyController : MonoBehaviour
 
 
     }
+    void Respawn()
+    {
 
+        ChangeHealth(maxHealth);
+        transform.position = respawnPosition.position;
+
+    }
 
 }
